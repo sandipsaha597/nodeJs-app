@@ -19,6 +19,6 @@ app.get('/sandip', (req, res) => {
     city: 'Howrah',
   })
 })
-const PORT = process.env.port || 80
+const PORT = process.env.port || 8080
 // console.log(process)
 app.listen(PORT, () => console.log(`app is running on port ${PORT}`))
